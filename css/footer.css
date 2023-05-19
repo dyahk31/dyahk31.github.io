@@ -1,0 +1,146 @@
+/* footer {
+    background-color: #3A5345;
+    color: #F0EBCE;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer h3 {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+    flex-basis: 33.33%;
+    text-align: center;
+}
+
+.footer-left p{
+    color: #F0EBCE;
+    text-align: left;
+    padding-left: 100px;
+    opacity: 0.7;
+    font-size: 13px;
+}
+
+.footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #F0EBCE;
+    text-decoration: none;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-right img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+
+    .footer-left,
+    .footer-middle,
+    .footer-right {
+        flex-basis: 100%;
+    }
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: #2f4237;
+}
+ */
+
+footer{
+    background-color: #3A5345;
+    color: #F0EBCE;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-middle,
+footer-right{
+    flex: 1 1 1px;
+}
+
+.footer-column{
+    display: flex;
+    padding: 40px 90px;
+}
+
+.footer-left p{
+    padding-right: 200px;
+    color: #F0EBCE;
+    opacity: 0.6;
+}
+
+.footer-left img{
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-links{
+    list-style: none;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #F0EBCE;
+}
+
+.footer-middle li{
+    margin-left: -40px;
+}
+
+.footer-right li{
+    margin-left: -40px;
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: #2f4237;
+}
+
+@media (max-width: 768px){
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left img{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+}

@@ -1,0 +1,49 @@
+.home-section {
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    padding: 40px;
+}
+
+.container h1 {
+    font-size: 55px;
+    color: #F0EBCE;
+    padding-top: 100px;
+}
+
+.container p {
+    font-size: 15px;
+    color: #F0EBCE;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    margin-left: 5px;
+    padding-right: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3A5345;
+    background-color: #F0EBCE;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 3em;      
+}
+
+.btn:hover {
+    background-color: #3A5345;
+    color: #F0EBCE;
+}
